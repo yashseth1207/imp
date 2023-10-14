@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Pet Adoption Center </title>
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="shortcut icon" href="favicon (2).ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="head">
+        <div class="title">
+            <h1 class="heading">Welcome to Our Pet Adoption Center</h1>
+        </div>
+        <img class="corgi" src="corgi (1).png" alt="corgi image">
+        <img class="buzz-on-hover" src="png-transparent-cloud-shape-white-and-black-illustration-price-discrimination-thought-business-think-bubble-love-text-service-removebg-preview.png">
+    </div>
+    <div class="intro">
+        <p>Welcome to the Virtual Pet Adoption Center! We are a dedicated online
+            platform where users can embark on the exciting journey of adopting and
+            caring for their very own virtual pets.</p>
+        <p> At our center, we offer a wide variety of virtual pets for adoption.
+            Adorable puppies, kittens, guinea pigs and exotic birds,
+            we have the perfect companion for every pet lover. Each virtual pet comes
+            with a detailed profile, showcasing their unique traits and characteristics.
+            You can learn about their names and breeds</p>
+    </div>
+
+
+    <div>
+        <h1 class="heading2">All the adorable pets to adopt: </h1>
+    </div>
+    <section class="carousel" aria-label="Gallery">
+        <ol class="carousel__viewport">
+            <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+                <img src="saint bernard.jpg" alt="">
+                <div class="carousel__snapper">
+                    <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+                    <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+                </div>
+            </li>
+            <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+                <img src="british short hair cat.webp" alt="">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+            </li>
+            <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+                <img src="https://imgs.search.brave.com/_v-6ttE5IeHIt1DoCjzb951ERDkML4lfa9iDtrvhxbQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2FjLzRl/LzFmL2FjNGUxZjNk/NDc0YWYxZWU3MjIw/Yzk2Mjc2NmM2MTEx/LS11bmlxdWUtYW5p/bWFscy1hZG9yYWJs/ZS1hbmltYWxzLmpw/Zw"
+                    alt="">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
+            </li>
+            <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+                <img src="guniea.jpg" alt="">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide5" class="carousel__next">Go to next slide</a>
+            </li>
+
+            <li id="carousel__slide5" tabindex="0" class="carousel__slide">
+                <img src="gettyimag.jpg" alt="">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide4" class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
+            </li>
+        </ol>
+        <aside class="carousel__navigation">
+            <ol class="carousel__navigation-list">
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+                </li>
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+                </li>
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+                </li>
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
+                </li>
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide5" class="carousel__navigation-button">Go to slide 5</a>
+                </li>
+            </ol>
+        </aside>
+        
+    </section>
+    <main class="bob">
+        
+        <section class="pet-card">
+            <img src="welsh-corgi.jpg" alt="Pet Image">
+            <h2>Milo</h2>
+            <p>Breed: Welsh Corgi</p>
+            <p>Age: 1 year</p>
+            <audio controls id="aH">
+                <source src="small-dog-barking-102658.mp3" type="audio/mpeg">
+            </audio>
+            <button class="adopt-button">Adopt Now</button>
+        </section>
+        <section class="pet-card">
+            <img src="red-white-cat-i-white-studio.jpg" alt="Pet Image">
+            <h2>Whiskers</h2>
+            <p>Breed: Ginger Cat</p>
+            <p>Age: 1 year</p>
+            <audio controls id="aH">
+                <source src="cat-89108.mp3" type="audio/mpeg">
+            </audio>
+            <button class="adopt-button">Adopt Now</button>
+        </section>
+        <section class="pet-card">
+            <img src="parr.jpg" alt="Pet Image">
+            <h2>Rio</h2>
+            <p>Breed: Ringneck Parrot</p>
+            <p>Age: 2 years</p>
+            <audio controls id="aH">
+                <source src="parrot.mp3" type="audio/mpeg">
+            </audio>
+            <button class="adopt-button">Adopt Now</button>
+        </section>
+        <section class="pet-card">
+            <img src="bunny.jpg" alt="Pet Image">
+            <h2>Snowball</h2>
+            <p>Breed: Volcano Rabbit</p>
+            <p>Age: 3 years</p>
+            <audio controls id="aH">
+                <source src="bunny.mp3" type="audio/mpeg">
+            </audio>
+            <button class="adopt-button">Adopt Now</button>
+        </section>
+        <section class="pet-card">
+            <img src="cockatoo.jpg" alt="Pet Image">
+            <h2>Coco</h2>
+            <p>Breed: Cockatoo</p>
+            <p>Age: 3 years</p>
+            <audio controls id="aH">
+                <source src="black-cockatoo-calyptorhynchus-banksii-95945.mp3" type="audio/mpeg">
+            </audio>
+            <button class="adopt-button">Adopt Now</button>
+        </section>
+        <section class="pet-card">
+            <img src="ham.jpg" alt="Pet Image">
+            <h2>Nibbles</h2>
+            <p>Breed: Guinea Pig</p>
+            <p>Age: 6 months</p>
+            <audio controls id="aH">
+                <source src="ham1.mp3" type="audio/mpeg">
+            </audio>
+            <button class="adopt-button">Adopt Now</button>
+        </section>
+        <section class="pet-card">
+            <img src="animal-1239398_1280.jpg" alt="Pet Image">
+            <h2>Peanut</h2>
+            <p>Breed: Hamster</p>
+            <p>Age: 1 year</p>
+            <audio controls id="aH">
+                <source src="ham2.mp3" type="audio/mpeg">
+            </audio>
+            <button class="adopt-button">Adopt Now</button>
+        </section>
+        
+        <section class="pet-card">
+            <img src="beagles.jpg" alt="Pet Image">
+            <h2>Oliver</h2>
+            <p>Breed: Beagle</p>
+            <p>Age: 1 year</p>
+            <audio controls id="aH">
+                <source src="small-dog-barking-84707.mp3" type="audio/mpeg">
+            </audio>
+            <button class="adopt-button">Adopt Now</button>
+        </section>
+        
+        <section class="pet-card">
+            <img src="close-up-adorable-kitten-indoors_23-2150782471.jpg" alt="Pet Image">
+            <h2>Snowball</h2>
+            <p>Breed: Red german pawed Cat</p>
+            <p>Age: 2 years</p>
+            <audio controls id="aH">
+                <source src="mixkit-sweet-kitty-meow-93.wav" type="audio/mpeg">
+            </audio>
+            <button class="adopt-button">Adopt Now</button>
+        </section>
+        
+        <section class="pet-card">
+            <img src="bengal kitten.webp" alt="Pet Image">
+            <h2>Misty</h2>
+            <p>Breed: Bengal Kitten</p>
+            <p>Age: 3 years</p>
+            <audio controls id="aH">
+                <source src="cat-meow-14536.mp3" type="audio/mpeg">
+            </audio>
+            <button class="adopt-button">Adopt Now</button>
+        </section>
+        
+        <section class="pet-card">
+            <img src="rabb.jpg" alt="Pet Image">
+            <h2>Hazel</h2>
+            <p>Breed: Red bunny Rabbit</p>
+            <p>Age: 9 months</p>
+            <audio controls id="aH">
+                <source src="rabbit.mp3" type="audio/mpeg">
+            </audio>
+            <button class="adopt-button">Adopt Now</button>
+        </section>
+        
+        <section class="pet-card">
+            <img src="bulldog.jpg" alt="Pet Image">
+            <h2>Max</h2>
+            <p>Breed: Bulldog</p>
+            <p>Age: 2 years</p>
+            <audio controls id="aH">
+                <source src="bulldog.mp3" type="audio/mpeg">
+            </audio>
+            <button class="adopt-button">Adopt Now</button>
+        </section>
+        <section class="pet-card">
+            <img src="1german shephard.jpg" alt="Pet Image">
+            <h2>Duke</h2>
+            <p>Breed: German Shephard</p>
+            <p>Age: 2 years</p>
+            <audio controls id="aH">
+                <source src="german_shepherd-29270.mp3" type="audio/mpeg">
+            </audio>
+            <button class="adopt-button">Adopt Now</button>
+        </section>
+        
+    </main>
+    <footer>
+        <img class="cont" src="corgi.png" alt="">
+        <h2>Get in Touch</h2>
+        <h3>Feel free to contact us at: </h3>
+        <a class="btn" href="mailto:virtualpetadopt@gmail.com">CONTACT US</a>
+        <h3 class="heading3"> © 2023 Virtual Pet Adoption Center</h3>
+    </footer>
+</body>
+
+</html>
